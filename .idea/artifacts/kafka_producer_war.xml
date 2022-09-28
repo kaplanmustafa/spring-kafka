@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kafka-producer:war">
+    <output-path>$PROJECT_DIR$/kafka-producer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kafka-producer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kafka-producer-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kafka-producer:war exploded" />
+    </root>
+  </artifact>
+</component>
